@@ -3,7 +3,4 @@
 
 dist/
 
-.neuralmind/
-.tokensave/
-graphify-out/
 private/
