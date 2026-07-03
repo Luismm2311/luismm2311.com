@@ -1,34 +1,40 @@
 # Luis Alberto Moreno Portfolio
 
-Portfolio personal servido por un backend pequeno en Go con Gin.
+Personal portfolio served by a small Go backend using Gin.
 
-## Estructura
+## Structure
 
-- `cmd/portfolio`: entrypoint del binario
-- `internal/server`: backend y assets embebidos
-- `scripts`: utilidades de build
-- `private`: archivos no publicos
+- `cmd/portfolio`: binary entrypoint
+- `internal/server`: backend and embedded assets
+- `scripts`: build utilities
+- `private`: non-public files
 
-## Requisitos
+## Requirements
 
 - Go 1.25+
 
-## Desarrollo
+## Development
 
 ```bash
 go run ./cmd/portfolio
 ```
 
-La app escucha en `http://127.0.0.1:8080` por defecto.
+The app listens on `http://127.0.0.1:8080` by default.
 
-## Build Linux portable
+## Portable Linux Build
 
 ```bash
 ./scripts/build-linux.sh
 ```
 
-El binario queda en `dist/luis-portfolio-linux-amd64`.
+The binary is generated at `dist/luis-portfolio-linux-amd64`.
 
-## Despliegue
+## Deployment
 
-Nginx debe hacer reverse proxy al proceso Go en `127.0.0.1:8080`.
+Nginx should reverse proxy to the Go process at `127.0.0.1:8080`.
+
+## License
+
+The source code in this repository is licensed under the MIT License.
+
+All personal content, including text, images, branding, resume information, project descriptions, and personal data, is not licensed for reuse and remains all rights reserved.
