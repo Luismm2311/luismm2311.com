@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luis Alberto Moreno Márquez | Portfolio</title>
+    <meta
+      name="description"
+      content="Luis Alberto Moreno Márquez, Systems Engineer focused on internal tools, automation, IT operations, and hardware-software integration."
+    />
+
+    <!-- Favicon (logo only as favicon) -->
+    <link rel="icon" href="Logo%20LAMM%20V3.1.svg" type="image/svg+xml" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <div class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="#top">
+          <span class="brand-logo">
+            <span class="brand-mark" aria-hidden="true"></span>
+          </span>
+          <span>Luis Alberto Moreno</span>
+        </a>
+
+        <div class="nav-links" aria-label="Primary">
+          <a href="#projects" data-i18n="nav_projects">Projects</a>
+          <a href="#experience" data-i18n="nav_experience">Experience</a>
+          <a href="#skills" data-i18n="nav_skills">Skills</a>
+          <a href="#contact" data-i18n="nav_contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="menu-toggle" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+            <span aria-hidden="true">☰</span>
+          </button>
+
+          <div class="nav-menu" id="navMenu">
+            <button
+              class="lang-toggle"
+              id="langBtn"
+              type="button"
+              aria-label="Toggle language"
+            >
+              <span aria-hidden="true">🌐</span>
+              <span id="langText">EN</span>
+            </button>
+            <button
+              class="mode-toggle"
+              id="modeBtn"
+              type="button"
+              aria-label="Toggle dark mode"
+            >
+              <span id="modeIcon" aria-hidden="true">☾</span>
+              <span id="modeText">Dark</span>
+            </button>
+            <a class="btn btn-primary" href="#contact" data-i18n="cta_talk">Let’s talk</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- luis -->
+    <main id="top" class="luis">
+      <div class="container luis-grid">
+        <div class="card luis-card reveal">
+          <div class="kicker">
+            <span class="pulse" aria-hidden="true"></span>
+            <span data-i18n="kicker"
+              >Available for remote roles · Internal Tools / Automation / IT
+              Operations</span
+            >
+          </div>
+
+          <h1 data-i18n="luis_title">
+            Systems Engineer for internal tools, automation, and IT operations.
+          </h1>
+
+          <p class="subtitle" data-i18n="luis_subtitle">
+            Computer Systems Engineer with official degree and Mexican
+            professional license, with <b>3+ years of experience</b> building
+            internal tools, automating operations, providing advanced technical
+            support, and integrating <b>hardware-software systems</b>. Currently
+            leading New Technologies Development for custom operational
+            solutions.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects">
+              <span class="icon" aria-hidden="true">🚀</span>
+              <span data-i18n="cta_projects">View Projects</span>
+            </a>
+            <a
+              class="btn btn-ghost"
+              data-contact-email
+              href="mailto:contact@luismm2311.com"
+            >
+              <span class="icon" aria-hidden="true">✉️</span>
+              <span data-i18n="cta_email">Email Me</span>
+            </a>
+            <a class="btn btn-ghost" href="#experience">
+              <span class="icon" aria-hidden="true">🧩</span>
+              <span data-i18n="cta_experience">Experience</span>
+            </a>
+          </div>
+
+          <div class="chips" aria-label="Highlights">
+            <span class="chip">Go · Python</span>
+            <span class="chip" data-i18n="chip_embedded"
+              >Embedded Systems · Industrial Control</span
+            >
+            <span class="chip">Linux · Windows</span>
+            <span class="chip" data-i18n="chip_infra">TCP/IP · VPNs · Nginx</span>
+            <span class="chip">Docker · Proxmox</span>
+          </div>
+        </div>
+
+        <aside class="card side-card reveal" aria-label="Quick facts">
+          <div class="side-title" data-i18n="quick_facts">Quick Facts</div>
+
+          <div class="side-item">
+            <div class="badge" aria-hidden="true">🛠️</div>
+            <div>
+              <h3 data-i18n="q1_title">Second-level IT Support</h3>
+              <p data-i18n="q1_body">
+                Incident diagnosis and case follow-up across software, hardware,
+                communications, and production systems.
+              </p>
+            </div>
+          </div>
+
+          <div class="side-item">
+            <div class="badge" aria-hidden="true">📦</div>
+            <div>
+              <h3 data-i18n="q2_title">Operational Continuity</h3>
+              <p data-i18n="q2_body">
+                Failure recovery, operational monitoring, deployments,
+                validations, and continuous improvement.
+              </p>
+            </div>
+          </div>
+
+          <div class="side-item">
+            <div class="badge" aria-hidden="true">🧠</div>
+            <div>
+              <h3 data-i18n="q3_title">Technical Integration</h3>
+              <p data-i18n="q3_body">
+                APIs, hardware-software integration, embedded systems, and
+                industrial control.
+              </p>
+            </div>
+          </div>
+
+          <div class="side-item">
+            <div class="badge" aria-hidden="true">🎓</div>
+            <div>
+              <h3 data-i18n="q5_title">Credentialed Engineer</h3>
+              <p data-i18n="q5_body">
+                Official degree and Mexican professional license; U.S. credential
+                evaluation in progress.
+              </p>
+            </div>
+          </div>
+
+          <div class="side-item">
+            <div class="badge" aria-hidden="true">🌎</div>
+            <div>
+              <h3 data-i18n="q4_title">Bilingual</h3>
+              <p data-i18n="q4_body">
+                Spanish (native) · English (advanced) · comfortable writing
+                technical documentation.
+              </p>
+            </div>
+          </div>
+
+          <a
+            class="btn btn-ghost"
+            href="https://github.com/luismm2311"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+        </aside>
+      </div>
+
+      <!-- Value tiles -->
+      <section class="container" style="padding-top: 18px">
+        <div class="grid-3">
+          <div class="tile reveal">
+            <h3 data-i18n="v1_title">Incident diagnosis</h3>
+            <p data-i18n="v1_body">
+              Analyze failures across software, hardware, communications, and
+              production operations.
+            </p>
+          </div>
+          <div class="tile reveal">
+            <h3 data-i18n="v2_title">Operational automation</h3>
+            <p data-i18n="v2_body">
+              Build internal tools and integrations that make support and
+              operations more consistent.
+            </p>
+          </div>
+          <div class="tile reveal">
+            <h3 data-i18n="v3_title">Production continuity</h3>
+            <p data-i18n="v3_body">
+              Recover from failures, monitor operations, and document
+              procedures that teams can follow.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="container">
+        <div class="section-title">
+          <div>
+            <h2 data-i18n="projects_title">Selected Projects</h2>
+            <p data-i18n="projects_sub">
+              Real systems I’ve built, deployed, or maintained.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <article class="project reveal">
+            <div class="project-head">
+              <h3 data-i18n="p1_title">
+                Urban Recycling Machine Control Stack
+              </h3>
+              <div class="meta" data-i18n="p1_meta">
+                PLC + Arduino · Field deployment
+              </div>
+            </div>
+            <p data-i18n="p1_body">
+              Led end-to-end development and rollout of firmware for recycling
+              mechanisms. Implemented PLC logic + Arduino control, integrated
+              with a third-party desktop system via a custom API.
+            </p>
+            <div class="tags">
+              <span class="tag">PLC</span>
+              <span class="tag">Arduino</span>
+              <span class="tag">APIs</span>
+              <span class="tag" data-i18n="tag_troubleshooting"
+                >Troubleshooting</span
+              >
+            </div>
+            <div class="actions">
+              <a class="btn btn-ghost" href="#contact" data-i18n="ask_details"
+                >Ask for details</a
+              >
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-head">
+              <h3 data-i18n="p2_title">Application Update Client</h3>
+              <div class="meta" data-i18n="p2_meta">Go · Secure downloads</div>
+            </div>
+            <p data-i18n="p2_body">
+              Built a small Go client to validate server WAR versions, securely
+              download updates, and support multiple release slots. Optimized
+              builds for Windows deployments and added checksum validation.
+            </p>
+            <div class="tags">
+              <span class="tag">Go</span>
+              <span class="tag">Tomcat</span>
+              <span class="tag">SHA-256</span>
+              <span class="tag">Windows</span>
+            </div>
+            <div class="actions">
+              <a class="btn btn-ghost" href="#contact" data-i18n="request_demo"
+                >Request demo</a
+              >
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-head">
+              <h3 data-i18n="p3_title">Remote Ops: AWS + VPN + Env Config</h3>
+              <div class="meta" data-i18n="p3_meta">
+                Infra support · Reliability
+              </div>
+            </div>
+            <p data-i18n="p3_body">
+              Diagnosed and resolved issues in production deployments: VPN
+              connectivity, environment variables, and cloud-side configuration.
+              Reduced downtime by creating deployment checklists and internal
+              runbooks.
+            </p>
+            <div class="tags">
+              <span class="tag">AWS</span>
+              <span class="tag">VPN</span>
+              <span class="tag" data-i18n="tag_runbooks">Runbooks</span>
+              <span class="tag">Linux</span>
+            </div>
+            <div class="actions">
+              <a class="btn btn-ghost" href="#contact" data-i18n="see_playbooks"
+                >See playbooks</a
+              >
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-head">
+              <h3 data-i18n="p4_title">Automation & Diagnostics Toolkit</h3>
+              <div class="meta" data-i18n="p4_meta">Bash · Go · Monitoring</div>
+            </div>
+            <p data-i18n="p4_body">
+              Built scripts and utilities for diagnostics: serial loopback
+              testing, service checks, and remote troubleshooting. Focused on
+              consistent logs, repeatability, and fast triage.
+            </p>
+            <div class="tags">
+              <span class="tag">Shell</span>
+              <span class="tag">Go</span>
+              <span class="tag">systemd</span>
+              <span class="tag" data-i18n="tag_observability"
+                >Observability</span
+              >
+            </div>
+            <div class="actions">
+              <a
+                class="btn btn-ghost"
+                href="https://github.com/luismm2311"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="container">
+        <div class="section-title">
+          <div>
+            <h2 data-i18n="exp_title">Experience</h2>
+            <p data-i18n="exp_sub">
+              Professional experience and academic background.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <div class="titem reveal">
+            <div class="twhen" data-i18n="t1_when">Sep 2022 - Present</div>
+            <div>
+              <h3 data-i18n="t1_title">
+                Engineer | New Technologies Development Lead
+              </h3>
+              <div class="where" data-i18n="t1_where">
+                Innovation Box Group · Mexico City
+              </div>
+              <ul>
+                <li data-i18n="t1_b1">
+                  Lead the New Technologies Development team, building custom
+                  internal solutions from scratch for operational needs.
+                </li>
+                <li data-i18n="t1_b2">
+                  Design and implement internal tools for support, operations,
+                  automation, and process improvement.
+                </li>
+                <li data-i18n="t1_b3">
+                  Contribute to mechanism design, firmware, APIs,
+                  hardware-software integration, and internal systems.
+                </li>
+                <li data-i18n="t1_b4">
+                  Diagnose and resolve incidents across software, hardware,
+                  communications, and production systems.
+                </li>
+                <li data-i18n="t1_b5">
+                  Support field technicians and remote teams with failure
+                  analysis, case follow-up, procedures, and diagnostic guides.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="titem reveal">
+            <div class="twhen" data-i18n="t2_when">2023 - 2025</div>
+            <div>
+              <h3 data-i18n="t2_title">B.Sc. Computer Systems Engineering</h3>
+              <div class="where" data-i18n="t2_where">
+                Official degree and Mexican professional license | U.S.
+                credential evaluation in progress
+              </div>
+              <ul>
+                <li data-i18n="t2_b1">
+                  Strong foundation in software development, systems, and
+                  applied troubleshooting.
+                </li>
+                <li data-i18n="t2_b2">
+                  Prepared to work across production systems, networks, and
+                  technical integrations.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="container">
+        <div class="section-title">
+          <div>
+            <h2 data-i18n="skills_title">Skills & Tooling</h2>
+            <p data-i18n="skills_sub">
+              Capabilities I use to support and improve production systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div class="tile reveal">
+            <h3 data-i18n="s1_title">IT Support</h3>
+            <p data-i18n="s1_body">
+              Second-level support, incident diagnosis, case follow-up, and
+              technical documentation
+            </p>
+          </div>
+          <div class="tile reveal">
+            <h3 data-i18n="s2_title">Operational Continuity</h3>
+            <p data-i18n="s2_body">
+              Production systems, failure recovery, operational monitoring, and
+              process improvement
+            </p>
+          </div>
+          <div class="tile reveal">
+            <h3 data-i18n="s3_title">Systems & Networking</h3>
+            <p data-i18n="s3_body">
+              Advanced Linux and Windows, Linux VPS, TCP/IP, VPNs, Docker, Git,
+              systemd, Nginx, and Proxmox
+            </p>
+          </div>
+          <div class="tile reveal">
+            <h3 data-i18n="s4_title">Automation</h3>
+            <p data-i18n="s4_body">
+              Go, Python, Shell Script, and C++ for internal tools, diagnostics,
+              and operational support
+            </p>
+          </div>
+          <div class="tile reveal">
+            <h3 data-i18n="s5_title">Technical Integration</h3>
+            <p data-i18n="s5_body">
+              APIs, hardware-software integration, embedded systems, and
+              industrial control
+            </p>
+          </div>
+          <div class="tile reveal">
+            <h3 data-i18n="s6_title">Databases</h3>
+            <p data-i18n="s6_body">
+              SQL queries for diagnostics and data validation
+            </p>
+          </div>
+        </div>
+
+        <div class="card courses" aria-label="Courses">
+          <div class="section-title courses-head">
+            <div>
+              <h2 class="courses-title" data-i18n="courses_title">
+                Continuing Education
+              </h2>
+              <p class="courses-sub" data-i18n="courses_sub">
+                CompTIA pathway and ITSM / ITIL fundamentals in progress
+              </p>
+            </div>
+          </div>
+          <div class="tags">
+            <span class="tag">ITF+</span><span class="tag">A+</span
+            ><span class="tag">Network+</span><span class="tag">Security+</span
+            ><span class="tag">ITSM / ITIL</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section
+        id="contact"
+        class="container contact"
+        style="padding-bottom: 60px"
+      >
+        <div class="section-title">
+          <div>
+            <h2 data-i18n="contact_title">Contact</h2>
+            <p data-i18n="contact_sub">
+              Fastest response: email. Happy to share more details privately if
+              needed.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card contact-card reveal">
+            <h3 class="h3" data-i18n="c1_title">
+              Let’s build something reliable
+            </h3>
+            <p class="muted" data-i18n="c1_body">
+              If you need someone who can diagnose incidents across software,
+              hardware, and production systems, automate processes, and
+              document solutions, I’m a strong fit for remote IT Support and
+              Operational Continuity roles.
+            </p>
+            <div class="contact-row">
+              <a
+                class="btn btn-primary"
+                data-contact-email
+                href="mailto:contact@luismm2311.com"
+                data-i18n="c_email"
+                >Email: contact@luismm2311.com</a
+              >
+              <a
+                class="btn btn-ghost"
+                href="https://github.com/luismm2311"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="card contact-card reveal">
+            <h3 class="h3" data-i18n="c2_title">What I’m looking for</h3>
+            <p class="muted" data-i18n="c2_body">
+              Remote teams with clear ownership and reliability-critical
+              systems. I can reproduce production issues, collect evidence,
+              identify root causes, and deliver stable fixes.
+            </p>
+            <div class="chip-row">
+              <span class="chip" data-i18n="chip_support"
+                >IT Support</span
+              >
+              <span class="chip" data-i18n="chip_maint"
+                >Operational Continuity</span
+              >
+              <span class="chip" data-i18n="chip_field">Production Systems</span>
+              <span class="chip" data-i18n="chip_auto">Automation</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer-inner">
+          <span>© <span id="year"></span> Luis Alberto Moreno Márquez</span>
+        </div>
+      </footer>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

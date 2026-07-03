@@ -1,0 +1,9 @@
+*.pdf
+*.log
+
+dist/
+
+.neuralmind/
+.tokensave/
+graphify-out/
+private/
